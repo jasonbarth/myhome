@@ -9,6 +9,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'chriskempson/base16-vim'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -40,3 +42,5 @@ inoremap <esc> <nop>
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
+
+colorscheme base16-default-dark
